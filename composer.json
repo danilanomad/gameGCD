@@ -25,12 +25,14 @@
             "src/View.php"
         ]
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "scripts": {
     "post-install-cmd": [
       "composer dump-autoload"
     ],
     "phpcs": "phpcs",
-        "phpcbf": "phpcbf"
+    "phpcbf": "phpcbf"
   },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.11"
