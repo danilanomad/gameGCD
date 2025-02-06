@@ -1,6 +1,12 @@
 {
     "name": "danilanomad/gcd",
     "description": "A simple PHP game to calculate the Greatest Common Divisor (GCD) of two numbers.",
+    "authors": [
+        {
+            "name": "Danila Polevshchikov",
+            "email": "allod2202@gmail.com"
+        }
+    ],
     "type": "project",
     "bin": [
         "bin/gcd.php"
@@ -19,16 +25,12 @@
             "src/View.php"
         ]
     },
-    "authors": [
-        {
-            "name": "danilanomad",
-            "email": "allod2202@gmail.com"
-        }
-    ],
     "scripts": {
     "post-install-cmd": [
       "composer dump-autoload"
-    ]
+    ],
+    "phpcs": "phpcs",
+        "phpcbf": "phpcbf"
   },
     "minimum-stability": "stable",
     "require-dev": {
