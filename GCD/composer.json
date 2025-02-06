@@ -1,0 +1,35 @@
+{
+    "name": "danilanomad/gcd",
+    "description": "A simple PHP game to calculate the Greatest Common Divisor (GCD) of two numbers.",
+    "type": "project",
+    "bin": [
+        "bin/gcd.php"
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "danilanomad\\GCD\\": "src/"
+        },
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "danilanomad",
+            "email": "allod2202@gmail.com"
+        }
+    ],
+    "scripts": {
+    "post-install-cmd": [
+      "composer dump-autoload"
+    ]
+  },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.11"
+    }
+}
