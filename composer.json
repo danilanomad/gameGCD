@@ -9,7 +9,7 @@
     ],
     "type": "project",
     "bin": [
-        "bin/gcd.php"
+        "bin/gcd"
     ],
     "license": "MIT",
     "require": {
