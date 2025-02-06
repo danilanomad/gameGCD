@@ -7,12 +7,12 @@ GCD Game — это консольная игра, в которой польз�
 
 ### 1. Установка через Composer
 ```sh
-composer require danilnomad/gameGCD
+composer require danilnomad/gcd
 ```
 
 ### 2. Глобальная установка
 ```sh
-composer global require danilanomad/gameGCD
+composer global require danilanomad/gcd
 ```
 
 ## Использование
@@ -45,9 +45,6 @@ gcd.php
 ```sh
 composer dump-autoload -o
 ```
-## Требования
-- PHP 8.0+
-- Composer
 
 ## Структура проекта
 ```
@@ -70,9 +67,9 @@ vendor/bin/phpcs --standard=PSR12 src/
 ```
 
 ## Публикация на Packagist
-Проект опубликован на [Packagist](https://packagist.org/packages/danilanomad/gameGCD). Чтобы установить его, используйте:
+Проект опубликован на [Packagist](https://packagist.org/packages/danilanomad/gcd). Чтобы установить его, используйте:
 ```
-composer require danilanomad/gameGCD
+composer require danilanomad/gcd
 ```
 
 ## Лицензия
