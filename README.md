@@ -18,7 +18,7 @@ composer global require danilanomad/gcd
 ## Использование
 После установки можно запустить игру командой:
 ```sh
-gcd.php
+gcd
 ```
 
 ## Требования
